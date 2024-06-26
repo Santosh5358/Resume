@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Port<span class="color">folio</span></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#1st">Home</a></li>
+                    <li><a href="#2nd">About</a></li>
+                    <li><a href="#3rd">Skills</a></li>
+                    <li><a href="#4th">Projects</a></li>
+                    <li><a href="#5th">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="1st">
+            <div class="leftsection">
+                Hi, I'm <span class="purple">Santosh Kumar Gupta</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <a href="https://drive.google.com/file/d/1Sv-LNxUeFIcxt-BQQmGp_9JzZs_gQZtX/view" target="_blank"> <button class="btn">Download Resume</button></a>
+                    
+                </div>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="avi.png" alt="">
+            </div>
+
+        </section>
+
+        <section class="secondsection" id="2nd">
+            <div class="cards">
+
+                <div class="card">
+                    <h1>About me</h1>
+                    <p>Hello! I’m Santosh Kumar Gupta, an Associate Software Engineer at Dedalus. As a B.Tech CSE graduate passionate about technology, I thrive on solving complex problems and creating elegant solutions. My journey began in college, where I honed my coding skills, collaborated on exciting projects, and embraced the ever-evolving tech landscape.
+
+                        🚀 Whether it’s crafting efficient algorithms or building user-friendly applications, I’m committed to pushing boundaries and making a positive impact. Join me as I continue to learn, innovate, and shape the future through code!</p>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="thirdsection" id="3rd">
+            <div class="box">
+                <h1>Skills</h1>
+                <table>
+
+                    <tr>
+                        <td>Html</td>
+                        <td>Cascading Style Sheets</td>
+                        <td>JavaScript</td>
+                        <td>Java</td>
+
+                    </tr>
+                    <tr>
+                        <td>Spring Framwork</td>
+                        <td>Rest APi</td>
+                        <td>Data Structures and Algorithms</td>
+                        <td>Python</td>
+                    </tr>
+                    <tr>
+                        <td>Angular</td>
+                        <td>Type Script</td>
+                        <td>MySql</td>
+                        <td>Linux</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="forthsection" id="4th">
+            <h1>Projects</h1>
+            <div class="boxs">
+                <div class="box1">
+                    <h2>Live ChatApplication using Java</h2>
+                    <p>"Designed and developed a ChatApplication utilizing Java, showcasing sleek design and
+                        user-friendly navigation. Where two users can chat on the same network without save the chat history"</p>
+
+                </div>
+                <div class="box2">
+                    <h2>Login Monitoring System using Parental Control</h2>
+                    <p>"Due to the many problems facing with the system login security, difficult to know the 
+                        infomation about the user logs in the system in the absence of Administrator of the system. 
+                        To mitigate the issues of Login Monitoring I created a software Login Monitoring System that 
+                        monitor the system in the absence of administrator and send the information of user logs in the 
+                        system. The Login Monitoring System is a desktop-based software. The software would 
+                        provide fundamental set of features for blocking sites, blocking programs, system information. 
+                        Its development includes the maintenance of back-end database with MySQL and front-end 
+                        application development aspects with JAVA."</p>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="fifthsection" id="5th">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <div class="sec">
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Your Name, eg - Santosh Kumar Gupta" required>
+                        <input type="email" name="email" placeholder="Your Email, eg - santoshkumar72102@gmail.com"
+                            required>
+                        <textarea name="message" rows="5" placeholder="Your Message..., eg - How's it?"
+                            required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footerbox">
+                <p>Created by Santosh Kumar Gupta | &copy; 2024 All Rights Reserved</p>
+        </footer>
+
+        </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['B.tech CSE Student', 'Aspiring Software Engineer', 'Frontend Developer.'],
+            typeSpeed: 70,
+        });
+    </script>
+</body>
+
+</html>
